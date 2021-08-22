@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 export default function TextForm({ heading, mystyle ,showalert}) {
     const [text, settext] = useState("")
-    console.log(text.split(" "))
+ 
 
     return (
 
@@ -13,7 +13,7 @@ export default function TextForm({ heading, mystyle ,showalert}) {
                 <div className="mb-3">
 
                     <h1>  {heading}</h1>
-                    <textarea class="form-control" style={mystyle} value={text} onChange={(e) => { settext(e.target.value) }} id="exampleFormControlTextarea1" rows="8"></textarea>
+                    <textarea className="form-control" style={mystyle} value={text} onChange={(e) => { settext(e.target.value) }} id="exampleFormControlTextarea1" rows="8"></textarea>
                 </div>
 
 
