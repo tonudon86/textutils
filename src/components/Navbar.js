@@ -25,10 +25,10 @@ export default function Navbar({ mystyle2, darkmode }) {
           </ul>
 
 
-          {/* <div class="form-check form-switch">
+          <div class="form-check form-switch">
             <input class="form-check-input" onChange={darkmode} type="checkbox" id="flexSwitchCheckDefault" />
             <label class="form-check-label" style={mystyle2 === true ? { color: 'black' } : { color: 'white' }} htmlFor="flexSwitchCheckDefault">  {mystyle2 === true ? "enable dark mode" : "disable dark mode"}</label>
-          </div> */}
+          </div>
           <form className="d-flex mx-3">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
             <button className="btn btn-outline-success" type="submit">Search</button>
